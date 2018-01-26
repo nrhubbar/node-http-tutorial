@@ -77,3 +77,49 @@ Since Macs are a flavor of Unix, they too have a strong command line, **BUT** ar
 5) Run `curl -o - https://raw.githubusercontent.com/denysdovhan/spaceship-prompt/master/scripts/install.sh | zsh`
 6) Close and reopen your terminal
 7) you should now have a pimped out command line!
+
+_P.S. I also recommend this tool called thefuck, https://github.com/nvbn/thefuck , helps you when you fat finger a command or forget a flag_
+
+---
+
+### Setting Up Dev Environment
+Now that you should have everything else set up we should be ready to start writing code. Thank fully I think this will be the only OS agnostic part! How you write your code can sometimes be just as important as the code you write. 
+
+If you are writing code in `notepad`, `GEdit`, `nano`, or `TextEdit` please stop now, this is slowing you down and stopping you from being the best programer you could be. 
+
+Also, writing in `vim` or `emacs` is effective, but if you are not accustomed to them and are working on a team where they expect you to spit out code and solve problems in a timely manner there are better solutions.
+
+
+
+#### Text Editor
+For small projects and brevity I recommend a Text Editor. I like VS Code because is it snappy and has a rich package community. I used to use Atom, but it has gotten slower, but has an extremely rich package community. Brackets is another, but it is sort of fringe _imho_. These 3 are all electron apps, meaning there are running on top of chrome, so inherently slower :/. Sublime 3 is nice since it is a native app, super fast, but it doesn't have a strong package community like some of the other editors.
+
+1) Visit https://code.visualstudio.com/download
+2) Download and install
+3) Next I recommend adding it to your `PATH` so you can open projects by running `code .` in the command line. _this will open the current directory and subdirs in VS Code_
+4) Start exploring Extensions, I like to add the most downloaded ones for whatever language I am working with. 
+
+#### IDE
+For larger projects and debugging I recommend an IDE. These offer things like IntelliSense, Build tools, Code Spotting, and Debugging. This comes at a cost of being heavy on your processor/Ram, but is worth it for writing code in large projects FAST.
+
+More specifically I recommend the JetBrains suite of tools. While you are a student I recommend getting your free license while you can, it is a stellar tool! If you are on Linux you are SOL becuase only community IntelliJ is offered, _which is still a great tool_. 
+
+1) Get you student license, https://www.jetbrains.com/student/
+2) Install the JetBrains Toolbox, this app will manage your IDEs and their versions as well as your projects. https://www.jetbrains.com/toolbox/
+3) Once you get the Toolbox installed I recommend installing WebStorm since we will be working with JS. 
+
+### Exploring the Language
+* Video Tutorials:
+    * Kyle Robinson Young made about 50 videos then disapeard, but he is super good: https://www.youtube.com/user/kylerobinsonyoung/playlists
+    * Derek Banas is a stellar YouTuber, still active and had a great series on almost anything coding related as well as interesting let's plays: https://www.youtube.com/user/derekbanas/playlists
+    * LevelUpTuts are useful for more in depth stuff: https://www.youtube.com/user/LevelUpTuts
+* Text Sources
+    * YDKJS is pretty useful if you want a deeper understanding of JS: https://github.com/getify/You-Dont-Know-JS
+    * Awesome Lists are a great way to explore unfamiliar topics: https://github.com/sorrycc/awesome-javascript
+* Existing projects: _beware, some of this code is shit, coding is a learning process_
+    * https://github.com/technetos/radius_chat_server
+    * https://github.com/multimedia-term-project
+    * https://github.com/i-do-code
+    * https://github.com/common-threads-group
+    * https://gitlab.com/recommendation-as-a-service
+
