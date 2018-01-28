@@ -4,10 +4,10 @@ Lesson 0 - Getting Started
 This lesson explains how to set up your dev environment to be conducive to NodeJS development.
 
 ### Goals
-* Install Pre-reqs
-* Install Command Line tools
-* Install Development Environment
-* Explore language
+* [Install Pre-reqs](#Installing-NodeJS)
+* [Install Command Line Tools](#Setup-Command-Line-Tools)
+* [Install Development Environment](#Setting-Up-Dev-Environment)
+* [Explore Language](#Exploring-the-Language)
 
 ### Installing NodeJS
 
