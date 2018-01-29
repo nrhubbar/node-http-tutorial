@@ -4,10 +4,10 @@ Lesson 0 - Getting Started
 This lesson explains how to set up your dev environment to be conducive to NodeJS development.
 
 ### Goals
-* Install Pre-reqs
-* Install Command Line tools
-* Install Development Environment
-* Explore language
+* [Install Pre-reqs](#installing-nodejs)
+* [Install Command Line Tools](#setup-command-line-tools)
+* [Install Development Environment](#setting-up-dev-environment)
+* [Explore Language](#exploring-the-language)
 
 ### Installing NodeJS
 
@@ -69,48 +69,48 @@ Unix has always had a pretty good CLI, so it is not hard to get started.
 #### Mac
 Since Macs are a flavor of Unix, they too have a strong command line, **BUT** are missing a good package manager. This is a tool that allows you to install stuff via the command line.
 1) First Console sucks, like bad! Get iTerm2 from here: https://www.iterm2.com/
-    * Console has a sucky prefrences selection; poor color range; and inability to split and tab panes easily
-2) You will probably be using bash, I recommend using `zsh` this is a different shell interpreter, but there isn extension called `oh-my-zsh` that comes with somre really neat and effective shortcuts and plugins.
+    * Console has a sucky preferences selection; poor color range; and inability to split and tab panes easily
+2) You will probably be using bash, I recommend using `zsh` this is a different shell interpreter, but there is no extension called `oh-my-zsh` that comes with some really neat and effective shortcuts and plugins.
 3) Run `sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"`
     * If you are missing `git` please install it now. `sudo apt-get install git`
 4) I recommend installing another theme called spaceship.
 5) Run `curl -o - https://raw.githubusercontent.com/denysdovhan/spaceship-prompt/master/scripts/install.sh | zsh`
 6) Close and reopen your terminal
-7) you should now have a pimped out command line!
+7) You should now have a pimped out command line!
 
 _P.S. I also recommend this tool called thefuck, https://github.com/nvbn/thefuck , helps you when you fat finger a command or forget a flag_
 
 ---
 
 ### Setting Up Dev Environment
-Now that you should have everything else set up we should be ready to start writing code. Thank fully I think this will be the only OS agnostic part! How you write your code can sometimes be just as important as the code you write. 
+Now that you should have everything else set up we should be ready to start writing code. Thankfully, I think this will be the only OS agnostic part! How you write your code can sometimes be just as important as the code you write. 
 
-If you are writing code in `notepad`, `GEdit`, `nano`, or `TextEdit` please stop now, this is slowing you down and stopping you from being the best programer you could be. 
+If you are writing code in `notepad`, `GEdit`, `nano`, or `TextEdit` please stop now, this is slowing you down and stopping you from being the best programmer you could be. 
 
-Also, writing in `vim` or `emacs` is effective, but if you are not accustomed to them and are working on a team where they expect you to spit out code and solve problems in a timely manner there are better solutions.
+Also, writing in `vim` or `emacs` is effective but, if you are not accustomed to them and are working on a team where they expect you to spit out code and solve problems in a timely manner, there are better solutions.
 
 
 
 #### Text Editor
-For small projects and brevity I recommend a Text Editor. I like VS Code because is it snappy and has a rich package community. I used to use Atom, but it has gotten slower, but has an extremely rich package community. Brackets is another, but it is sort of fringe _imho_. These 3 are all electron apps, meaning there are running on top of chrome, so inherently slower :/. Sublime 3 is nice since it is a native app, super fast, but it doesn't have a strong package community like some of the other editors.
+For small projects and brevity, I recommend a Text Editor. I like VS Code because is it snappy and has a rich package community. I used to use Atom, but it has gotten slower, but it has an extremely rich package community. Brackets is another, but it is sort of fringe _imho_. These 3 are all electron apps, meaning they are running on top of chrome. So, inherently slower :/. Sublime 3 is nice since it is a native app. It's super fast, but it doesn't have a strong package community like some of the other editors.
 
 1) Visit https://code.visualstudio.com/download
 2) Download and install
-3) Next I recommend adding it to your `PATH` so you can open projects by running `code .` in the command line. _this will open the current directory and subdirs in VS Code_
+3) Next, I recommend adding it to your `PATH` so you can open projects by running `code .` in the command line. _this will open the current directory and subdirs in VS Code_
 4) Start exploring Extensions, I like to add the most downloaded ones for whatever language I am working with. 
 
 #### IDE
-For larger projects and debugging I recommend an IDE. These offer things like IntelliSense, Build tools, Code Spotting, and Debugging. This comes at a cost of being heavy on your processor/Ram, but is worth it for writing code in large projects FAST.
+For larger projects and debugging, I recommend an IDE. These offer things like IntelliSense, Build tools, Code Spotting, and Debugging. IDEs come at a cost of being heavy on your processor/Ram, but they are worth it for making writing code in large projects FAST.
 
-More specifically I recommend the JetBrains suite of tools. While you are a student I recommend getting your free license while you can, it is a stellar tool! If you are on Linux you are SOL becuase only community IntelliJ is offered, _which is still a great tool_. 
+More specifically, I recommend the JetBrains suite of tools. While you are a student, I recommend getting your free license while you can. It is a stellar tool! If you are on Linux you are SOL becuase only community IntelliJ is offered, _which is still a great tool_.
 
-1) Get you student license, https://www.jetbrains.com/student/
+1) Get your student license, https://www.jetbrains.com/student/
 2) Install the JetBrains Toolbox, this app will manage your IDEs and their versions as well as your projects. https://www.jetbrains.com/toolbox/
-3) Once you get the Toolbox installed I recommend installing WebStorm since we will be working with JS. 
+3) Once you get the Toolbox installed, I recommend installing WebStorm since we will be working with JS. 
 
 ### Exploring the Language
 * Video Tutorials:
-    * Kyle Robinson Young made about 50 videos then disapeard, but he is super good: https://www.youtube.com/user/kylerobinsonyoung/playlists
+    * Kyle Robinson Young made about 50 videos then disappeared, but he is super good: https://www.youtube.com/user/kylerobinsonyoung/playlists
     * Derek Banas is a stellar YouTuber, still active and had a great series on almost anything coding related as well as interesting let's plays: https://www.youtube.com/user/derekbanas/playlists
     * LevelUpTuts are useful for more in depth stuff: https://www.youtube.com/user/LevelUpTuts
 * Text Sources
