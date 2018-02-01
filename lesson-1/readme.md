@@ -6,8 +6,8 @@ This lesson will be help explain a server's job, different patterns involved, as
 ### Goals
 * What is a Server?
 * What is HTTP? What is REST?
+* What is NodeJS
 * NodeJS Http Library
-* What is Async?
-* NodeJS FS Library
+* Different types of server.
 
-_Work in Progress 1:10 1/26/2017_
+
