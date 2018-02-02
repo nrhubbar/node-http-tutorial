@@ -17,6 +17,7 @@ The URL of a request can be thought of as a path. It is useful to break up diffe
 
 #### METHOD
 The METHOD of a request can be thought of, _what do you want to do?_ We can represent what a request is doing by talking about the route and method like so `GET /school`. So if I were to do a `GET /school` this could mean, _get me all of the schools in the DB_, but if I did a `POST /school` this could mean, _create a new school with the data in the body._ This is the same route, but since we have a different method we should expect different functionality. Also there are preconsieved notions on what each method does:
+
 |  VERB | Functionality  |
 |---|---|
 | `GET`  | retrieve data from the server  |
