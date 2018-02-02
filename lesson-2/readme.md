@@ -20,8 +20,8 @@ The METHOD of a request can be thought of, _what do you want to do?_ We can repr
 
 |  VERB | Functionality  |
 |---|---|
-| `GET`  | retrieve data from the server  |
-| `POST` | send data to the server, create a new resource, kick off a process  |
+| `GET`  | Retrieve data from the server  |
+| `POST` | Send data to the server, create a new resource, kick off a process  |
 | `PUT` | Update a resource  |
 | `DELETE` | Remove a resource  |
 | `PATCH`  | Append to a resource  |
