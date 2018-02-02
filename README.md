@@ -1,5 +1,5 @@
 # node-http-tutorial
-This is a tutorial that I am creating to help explain how to get up and running with nodeJS.
+This is a tutorial that I am creating to help explain how to get up and running with nodeJS. This is a pretty wordy tutorial so be prepared to read. This is not for the faint of heart. I will work to write a condensed version of each lesson, eventually.
 
 ### Table of Contents
 * [Lesson 0 - Getting Started](lesson-0)
