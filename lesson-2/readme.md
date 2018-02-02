@@ -93,4 +93,4 @@ Here is more data on the [FS module](https://nodejs.org/api/fs.html) in nodeJS. 
 
 _I will add more notes in this after I give the lesson in person on 2/2/2018 6pm._
 
-_p.s. this is a work in progress 00:11 2/1/2018_
+_p.s. this is a work in progress 01:28 2/2/2018_
